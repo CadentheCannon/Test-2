@@ -1,70 +1,182 @@
 <!DOCTYPE html>
-<!-- This website tempate was created by: Carlos Theran -->
+<!-- This website template was created by: Carlos Theran -->
 <html lang="en">
-  <head>
-      <title>Caden Cannon </title>
-      <meta charset="utf-8">
-      <link rel="stylesheet" href="../css/style.css">
-  </head> 
-  <body>
+<head>
+    <title>Caden Cannon</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        header {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            background-color: rgb(232, 113, 100);
+            height: 15px;
+            padding: 7%;
+        }
+        
+        header img {
+            margin: 0 auto;
+        }
+        
+        nav {
+            padding: 1%;
+            margin-bottom: 1%;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            text-align: center;
+        }
+        
+        nav li {
+            font-size: 1.75em;
+            font-family: 'Send Flower', cursive;
+            border-top: 1px solid rgb(225, 36, 36);
+        }
+        
+        nav li:first-child {
+            border-top: none;
+        }
+        
+        img {
+            max-width: 100%;
+            display: block;
+        }
+        
+        nav li a {
+            display: block;
+            color: rgb(255, 36, 36);
+            padding: 0.5em 1em;
+            text-decoration: none;
+        }
+        
+        p {
+            font-size: 14px;
+        }
+        
+        img {
+            max-width: 100%;
+            display: block;
+        }
+        
+        .tel-link a {
+            color: rgb(225, 36, 36);
+            text-decoration: none;
+            font-size: 1.5em;
+            display: block;
+        }
+        
+        .tel-link {
+            background-color: #404040;
+            padding: 2%;
+            margin: 0 auto;
+            width: 80%;
+            text-align: center;
+            border-radius: 5px;
+        }
+        
+        main {
+            clear: left;
+            background-color: #fff;
+            padding: 2%;
+            font-size: 1.25em;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        footer p {
+            font-size: 0.75em;
+            text-align: center;
+            color: rgb(225, 36, 36);
+            padding: 0 1em;
+        }
+        
+        footer p a {
+            color: rgb(225, 36, 36);
+            text-decoration: none;
+        }
+        
+        #contact {
+            text-align: center;
+        }
+        
+        #contact a {
+            color: #666600;
+            text-decoration: none;
+        }
+        
+        .hours {
+            margin-left: 10%;
+        }
+        
+        .tablet-desktop {
+            display: none;
+        }
+        
+        .mobile {
+            display: block;
+        }
+    </style>
+</head>
+<body>
 
-    <div id="container">  
-      <header>
-        <h1>Caden Cannon </h1>
-        <a href="index.html"><img src="../images/logo.png" alt="freeeze Logo"></a>   
+<div id="container">
+    <header>
+        <h1>Caden Cannon</h1>
+        <img src="../images/logo.png" alt="freeeze Logo">
     </header>
 
     <nav>
-      <ul>
-         <li><a href="index.html"> Home</a></li>
-         <li><a href="about.html"> About</a></li>
-         <li><a href="contact.html">Contact Us</a></li> 
-      </ul>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
     </nav>
 
     <!--Hero Image-->
     <div id="hero">
-      <img src="../images/hero-home.jpg" alt="left arm extended">
+        <img src="../images/hero-home.jpg" alt="left arm extended">
     </div>
 
     <!--Use the main area to add the main content of the webpage -->
     <main>
-      <div id="intro">
-        <p>
-          Whether it is a hot summer day or the holiday season, ice cream and gelato are 
-          well-loved frozen desserts enjoyed by people of any age (although some consider 
-          gelato to be the "grown-up" version of ice cream). The two look and taste similar, 
-          but are they actually the same? Taking into account gelato is the Italian word for 
-          ice cream, you would think so, but there are actually a few differences between the two.
-        </p>
-        <h1> The ingredients</h1>
-        <p>
-          Two of the main ingredients in both ice cream and gelato are milk and cream, but it is 
-          the amount of each that results in differing desserts. As the name implies, "ice cream" 
-          contains more cream than milk, whereas gelato is made with a greater proportion of whole 
-          milk to cream. Another ingredient that distinguishes the two is eggs; ice cream includes 
-          egg yolks while gelato is (most often) completely void of eggs.
-        </p>
-        <h1>The Process</h1>
-        <p>
-          It is not just the ingredients that separate the two, it is also the way that each is made. 
-          Ice cream and gelato must be churned to create that creamy, scoopable goodness, but it is the 
-          speed at which they are churned—and the resulting amount of air incorporated—that is different. 
-          Gelato is churned at a slower speed than ice cream, which creates a denser consistency since less 
-          air is whipped into the mixture. Gelato contains about 25 to 30 percent air, while ice cream can 
-          contain as much as 50 percent air.
-        </p>
-  
-      </div>
+        <div id="intro">
+            <p>
+                Whether it is a hot summer day or the holiday season, ice cream and gelato are
+                well-loved frozen desserts enjoyed by people of any age (although some consider
+                gelato to be the "grown-up" version of ice cream). The two look and taste similar,
+                but are they actually the same? Taking into account gelato is the Italian word for
+                ice cream, you would think so, but there are actually a few differences between the two.
+            </p>
+            <h1>The ingredients</h1>
+            <p>
+                Two of the main ingredients in both ice cream and gelato are milk and cream, but it is
+                the amount of each that results in differing desserts. As the name implies, "ice cream"
+                contains more cream than milk, whereas gelato is made with a greater proportion of whole
+                milk to cream. Another ingredient that distinguishes the two is eggs; ice cream includes
+                egg yolks while gelato is (most often) completely void of eggs.
+            </p>
+            <h1>The Process</h1>
+            <p>
+                It is not just the ingredients that separate the two, it is also the way that each is made.
+                Ice cream and gelato must be churned to create that creamy, scoopable goodness, but it is the
+                speed at which they are churned—and the resulting amount of air incorporated—that is different.
+                Gelato is churned at a slower speed than ice cream, which creates a denser consistency since less
+                air is whipped into the mixture. Gelato contains about 25 to 30 percent air, while ice cream can
+                contain as much as 50 percent air.
+            </p>
+
+        </div>
     </main>
 
-    <!-- Use the footer are to add web page footer content -->
+    <!-- Use the footer area to add web page footer content -->
     <footer>
-      <p>&copy; Copyright 2022. All Right Reserved</p>
-      <p><a href="mailto:freeeze@gelato.net"> freeeze@gelato.net</a> </p>
+        <p>&copy; Copyright 2022. All Rights Reserved</p>
+        <p><a href="mailto:freeeze@gelato.net">freeeze@gelato.net</a></p>
     </footer>
 
-    </div>
-  </body>
-  
+</div>
+</body>
 </html>
