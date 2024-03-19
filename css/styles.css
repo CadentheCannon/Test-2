@@ -11,7 +11,7 @@ body img {
 }
 
 header {
-   position: sticky;
+   position: -webkit-sticky;
    top: 0;
    background-color: rgb(232,113,100);
    height: 15px;
