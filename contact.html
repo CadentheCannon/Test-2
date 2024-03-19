@@ -1,45 +1,71 @@
 <!DOCTYPE html>
-<!-- This website tempate was created by: Carlos Theran -->
+<!-- This website template was created by: Carlos Theran -->
 <html lang="en">
-  <head>
-      <title>Forward Fitness Club</title>
-      <meta charset="utf-8">
-      <link rel="stylesheet" href="../css/style.css">
-  </head> 
-  <body>
+<head>
+  <title>Forward Fitness Club</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Added meta viewport for responsive purpose -->
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    /* Added style for map class selector */
+    .map {
+      border: 8px solid #000;
+    }
+    /* Added style for contact id selector */
+    #contact {
+      text-align: center;
+    }
+    /* Added style for contact a id selector */
+    #contact a {
+      color: #666600;
+      text-decoration: none;
+    }
+    /* Added style for nav li a selector */
+    nav li a {
+      display: block;
+      color: rgb(255, 36, 36);
+      padding: 0.5em 1em;
+      text-decoration: none;
+    }
+    /* Added style for p selector */
+    p {
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
 
-    <div id="container">    
-        <header>
-          <h1>Student name</h1>
-          <a href="index.html"><img src="../images/logo.png" alt="freeeze Logo"></a>
-          
-      </header>
+<div id="container">    
+    <header>
+      <h1>Forward Fitness Club</h1> <!-- Removed your name from header tag -->
+      <a href="index.html"><img src="../images/logo.png" alt="freeeze Logo"></a>
+  </header>
 
-    <nav>
-      <ul>
-         <li><a href="index.html"> Home</a></li>
-         <li><a href="about.html"> About</a></li>
-         <li><a href="contact.html">Contact Us</a></li> 
-      </ul>
-    </nav>
+<nav>
+  <ul>
+     <li><a href="index.html"> Home</a></li>
+     <li><a href="about.html"> About</a></li>
+     <li><a href="contact.html">Contact Us</a></li> 
+  </ul>
+</nav>
 
-    <!--Use the main area to add the main content of the webpage -->
-    <main>
-      <div id="contact">
-        <h2>Do you want to know more? Contact Us today.</h2>
-        <h4>Call us: (813) 555-6789</h4>
-        <h4>Email us: <a href="mailto:freeeze@gelato.net" >freeeze@gelato.net</a></h4>
-        <h4>Visit Us at: Piazza Nazario Sauro, 25/r, 50124 Firenze FI, Italy</h4>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10525782.499074047!2d4.4729870914310315!3d46.34532158156528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132a56ab5fc3c57d%3A0xb1b312c28b2057b3!2sGelateria%20La%20Carraia!5e0!3m2!1sen!2sus!4v1646697482752!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-      </div>
-    </main>
+<!--Use the main area to add the main content of the webpage -->
+<main>
+  <div id="contact">
+    <h2>Do you want to know more? Contact Us today.</h2>
+    <h4>Call us: (813) 555-6789</h4>
+    <h4>Email us: <a href="mailto:freeeze@gelato.net">freeeze@gelato.net</a></h4>
+    <h4>Visit Us at: Piazza Nazario Sauro, 25/r, 50124 Firenze FI, Italy</h4>
+    <!-- Modified iframe tag with class map and removed height and width attributes -->
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10525782.499074047!2d4.4729870914310315!3d46.34532158156528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132a56ab5fc3c57d%3A0xb1b312c28b2057b3!2sGelateria%20La%20Carraia!5e0!3m2!1sen!2sus!4v1646697482752!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+</main>
 
-    <!-- Use the footer are to add web page footer content -->
-    <footer>
-      <p>&copy; Copyright 2022. All Right Reserved</p>
-    </footer>
+<!-- Use the footer area to add web page footer content -->
+<footer>
+  <p>&copy; Copyright 2022. All Rights Reserved</p>
+</footer>
 
-    </div>
-  </body>
-  
+</div>
+</body>
 </html>
