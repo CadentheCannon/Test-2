@@ -1,232 +1,178 @@
-        header {
-            position: -webkit-sticky;
-            position: sticky;
-            top: 0;
-            background-color: rgb(232, 113, 100);
-            height: 15px;
-            padding: 7%;
-        }
 
-        header img {
-            margin: 0 auto;
-        }
-
-        nav {
-            padding: 1%;
-            margin-bottom: 1%;
-        }
-
-        nav ul {
-            list-style-type: none;
-            text-align: center;
-        }
-
-        nav li {
-            font-size: 1.75em;
-            font-family: 'Send Flower', cursive;
-            border-top: 1px solid rgb(225, 36, 36);
-        }
-
-        nav li:first-child {
-            border-top: none;
-        }
-
-        nav li a {
-            display: block;
-            color: rgb(255, 36, 36);
-            padding: 0.5em 1em;
-            text-decoration: none;
-        }
-
-        p {
-            font-size: 14px;
-        }
-
-        img {
-            max-width: 100%;
-            display: block;
-        }
-
-        .tel-link a {
-            color: rgb(225, 36, 36);
-            text-decoration: none;
-            font-size: 1.5em;
-            display: block;
-        }
-
-        .tel-link {
-            background-color: #404040;
-            padding: 2%;
-            margin: 0 auto;
-            width: 80%;
-            text-align: center;
-            border-radius: 5px;
-        }
-
-        .main {
-            clear: left;
-            background-color: #fff;
-            padding: 2%;
-            font-size: 1.25em;
-            font-family: 'Roboto', sans-serif;
-        }
-
-        footer p {
-            font-size: 0.75em;
-            text-align: center;
-            color: rgb(225, 36, 36);
-            padding: 0 1em;
-        }
-
-        footer p a {
-            color: rgb(225, 36, 36);
-            text-decoration: none;
-        }
-
-        #contact {
-            text-align: center;
-        }
-
-        #contact a {
-            color: #666600;
-            text-decoration: none;
-        }
-
-        .hours {
-            margin-left: 10%;
-        }
-
-        .tablet-desktop {
-            display: none;
-        }
-
-        @media (min-width: 768px) {
-            .mobile {
-                display: none;
-            }
-            .tablet-desktop {
-                display: block;
-            }
-        }
 body {
-    background-color: rgb(252, 251, 251);
+   background-color: rgb(252, 251, 251);
 }
 
 body img {
-    margin: 0;
-    padding: 0;
-    position: relative;
-    width: auto;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   width: auto;
 }
 
 header {
-            position: -webkit-sticky;
-            position: sticky;
-            top: 0;
-            background-color: rgb(232, 113, 100);
-            height: 15px;
-            padding: 7%;
-        }
+   position: sticky;
+   top: 0;
+   background-color: rgb(232,113,100);
+   height: 15px;
+   padding: 10px; /* Changed to fixed value */
+}
+
+header img {
+   margin: 0 auto;
+}
 
 nav {
-    width: 70%;
-    float: right;
-    margin: 5em 3em 0 0;
+
+   margin: 5em 3em 0 0;
+   padding: 1%;
+   margin-bottom: 1%;
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    text-align: right;
+   list-style-type: none;
+   margin: 0;
+   text-align: center;
 }
 
 nav li {
-    display: inline-block;
-    font-size: 1.75em;
+   display: inline-block;
+   font-size: 1.75em;
+   font-family: 'Send Flower', cursive;
+   border-top: 1px solid rgb(225,36,36); /* Corrected property name */
+}
+
+li:first-child {
+   border-top: none;
 }
 
 nav li a {
-    display: block;
-    color: rgb(238, 101, 101);
-    text-align: center;
-    padding: 0.5em 1em;
-    text-decoration: none;
+   display: block;
+   color: rgb(238, 101, 101);
+   text-align: center;
+   padding: 0.5em 1em;
+   text-decoration: none;
 }
 
 p {
-    color: #685206;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 14px;
-    line-height: 24px;
-    margin: 0 0 24px;
-    text-align: justify;
-    text-justify: inter-word;
+   color: #685206;
+   font-family: 'Helvetica Neue', sans-serif;
+   font-size: 14px;
+   line-height: 24px;
+   margin: 0 0 24px;
+   text-align: justify;
+   text-justify: inter-word;
 }
 
 img {
-    vertical-align: middle;
+   vertical-align: middle;
+   max-width: 100%;
+   color: rgb(255,36,36);
+   text-decoration: none;
+   display: block;
+}
+
+.tel-link a {
+   color: rgb(225,36,36);
+   text-decoration: none;
+   font-size: 1.5em;
+   display: block;
+}
+
+.tel-link {
+   background-color: #404040;
+   padding: 2%;
+   margin: 0 auto;
+   width: 80%;
+   text-align: center;
+   border-radius: 5px;
 }
 
 main {
-    clear: left;
+   clear: left;
+   background-color: #fff;
+   padding: 2%;
+   font-size: 1.25em;
+   font-family: 'Roboto', sans-serif;
 }
 
-/* New Selectors */
+footer {
+   font-size: 0.75em;
+   text-align: center;
+   color: rgb(225,36,36);
+   padding: 0 1em;
+   padding-top: 20px; /* Added some padding */
+}
 
-#blackberry,
-#kiwi,
-#mango {
-    margin: 0 2%;
+footer p a {
+   color: rgb(225,36,36);
+   text-decoration: none;
+}
+
+#contact {
+   text-align: center;
+}
+
+#contact a {
+   color: #666600;
+   text-decoration: none;
+}
+
+.hours {
+   margin-left: 10%;
+}
+
+.blackberry, #kiwi, #mango {
+   margin: 0 2%;
 }
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: auto;
 }
-
-/* Media Screen for Tablets and Desktops */
 
 @media screen and (min-width: 690px) {
-    .tablet-desktop {
-        display: block;
-    }
+   .tablet-desktop {
+       display: block;
+   }
 
-    .mobile {
-        display: none;
-    }
+   .mobile {
+       display: none;
+   }
 
-    header {
-        position: static;
-        padding-bottom: 7%;
-    }
+   header {
+       position: static;
+       padding-bottom: 20px; /* Adjusted padding */
+   }
 
-    nav li {
-        border-top: none;
-        display: inline-block;
-        border-right: 1px solid #fff;
-    }
+   nav li {
+       border-top: none;
+       display: inline-block;
+       border-right: 1px solid #fff;
+   }
 
-    nav li:last-child {
-        border-right: none;
-    }
+   nav li:last-child {
+       border-right: none;
+   }
 
-    nav li a {
-        padding: 0.1em 0.75em;
-    }
+   nav li a {
+       padding: 0.1em 0.75em;
+   }
 
-    main ul {
-        margin: 0 0 4% 10%;
-    }
+   main ul {
+       margin: 0 0 4% 10%;
+   }
 
-    .tel-num {
-        font-size: 1.25em;
-        text-align: center;
-    }
+   .tel-num {
+       font-size: 1.25em;
+       text-align: center;
+   }
 
-    .map {
-        width: 600px;
-        height: 450px;
-    }
+   .map {
+       border: 8px solid #000;
+   }
 }
+
+
